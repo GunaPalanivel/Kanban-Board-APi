@@ -1,18 +1,13 @@
-1. API Endpoints
-a. Add a column to a board
-POST/boards/{board_id}/columns
+1. API Endpoints to Implement.
 
-b.Add a Task to a Column
-POST/columns/{column_str_id}/tasks
+a. Add a column to a board -> POST/boards/{board_id}/columns
 
-c.List Tasks in a Column
-GET/columns/{column_str_id}/tasks
+b.Add a Task to a Column -> POST/columns/{column_str_id}/tasks
 
-d.Move a Task to a Different Column
-PUT/tasks_column_str_id}/move
+c.List Tasks in a Column -> GET/columns/{column_str_id}/tasks
 
-e.Reorder a Task Within the Column
-PUT/tasks_column_str_id}/reorder
+d.Move a Task to a Different Column -> PUT/tasks_column_str_id}/move
 
-f. Fetch Full Boards View
-GET/boards/{board_id}/view
+e.Reorder a Task Within the Column -> PUT/tasks_column_str_id}/reorder
+
+f. Fetch Full Boards View -> GET/boards/{board_id}/view
